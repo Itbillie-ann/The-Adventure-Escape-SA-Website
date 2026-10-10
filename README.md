@@ -62,6 +62,6 @@ Each member commits their own work with a message describing the change. Pull be
 ## Status
 Task 2: HTML structure and navigation for all pages, with a working fee calculator. Planned for Task 3: finish and refine the CSS and JavaScript, then publish the site.
 
-## Credits
+## References
 Photography from Unsplash: Elijah Cobb (2025), Matt Palmer (2025), Sergio Arteaga (2024), Roger Ce (2023).
 The company, contact details, addresses and social links are fictional and used for academic purposes only.
