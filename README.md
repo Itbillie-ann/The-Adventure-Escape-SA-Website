@@ -106,15 +106,15 @@ This project is developed by a three-member team.
 
 ### Team Leader
 
-Responsible for coordinating the project, delegating tasks, monitoring progress, and ensuring that project objectives are achieved.
+Alicia B Bukitu was the grouo leader that led this team and was eesponsible for coordinating the project, delegating tasks, monitoring progress, and ensuring that project objectives are achieved.
 
 ### Team Secretary
 
-Responsible for documentation, meeting records, communication, deadlines, and maintaining project information.
+The team secretary was Promedi Ilunga who was responsible for documentation, meeting records, communication, deadlines, and maintaining project information.
 
 ### Technical Lead / Developer
 
-Responsible for the technical implementation of the project, including development, testing, troubleshooting, and technical support.
+Finally Duncan Khoza as the technical lead and developer was responsible for the technical implementation of the project, including development, testing, troubleshooting, and technical support.
 
 ---
 
