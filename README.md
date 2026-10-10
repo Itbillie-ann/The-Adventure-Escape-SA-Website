@@ -55,6 +55,7 @@ Download or clone the repository, keep all files in the same folder, and open `i
 - High-fidelity wireframes:
     - https://www.figma.com/design/HFzlsTCMqScRIvbBxFpDsY/GreenLeaf-Co.?node-id=24-1081&t=aUOECaml5Gc8g9sN-0
     - https://www.figma.com/design/WhPCtkRjQ8EDdD56a3RUNq/xhaw-mobile?node-id=0-1&t=vbZOZufkY44Eb8Hv-1
+- YouTube Link: https://www.youtube.com/watch?v=5qkanSpj3Os
 
 ## Version control
 Each member commits their own work with a message describing the change. Pull before you push.
