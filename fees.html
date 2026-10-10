@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Calculate Total Fees">
+<title>Calculate Total Fees | Adventure Escape SA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="--accent:#D9A441">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header solid" id="siteHeader">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="Adventure Escape SA home"><svg class="logo-mark" width="44" height="44" viewBox="0 0 42 42" role="img" aria-label="Adventure Escape SA logo">
+        <circle cx="21" cy="21" r="19.5" fill="none" stroke="#D9A441" stroke-width="1.5"/>
+        <path d="M8 27L15.5 14L20 20.5L24.5 13L34 27H8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+        <circle cx="28.5" cy="11.5" r="2.3" fill="#D9A441"/>
+        <path d="M11 17.5q2.2-2.2 4.4 0" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </svg><span class="brand-name">ADVENTURE<br>ESCAPE SA</span></a>
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <div class="nav-menu" id="navMenu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <div class="dropdown"><a class="nav-link" href="overview.html">Overview <span class="caret" aria-hidden="true">&#9662;</span></a>
+            <div class="dropdown-panel"><a href="ultimate-adventure-day.html">Ultimate Adventure Day<span>R1,500</span></a>
+                <a href="family-explorer-package.html">Family Explorer Package<span>R1,500</span></a>
+                <a href="mountain-adventure-package.html">Mountain Adventure Package<span>R1,500</span></a>
+                <a href="corporate-team-challenge.html">Corporate Team Challenge<span>R1,500</span></a><hr>
+                <a href="ziplining-adventure.html">Ziplining Adventure<span>R750</span></a>
+                <a href="kayaking-experience.html">Kayaking Experience<span>R750</span></a>
+                <a href="rock-climbing-session.html">Rock Climbing Session<span>R750</span></a></div>
+            </div>
+            <a class="nav-link nav-cta" href="fees.html" aria-current="page">Calculate Fees</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+</nav>
+</header>
+
+<main id="main">
+<section class="page-hero" style="--hero:url('https://images.unsplash.com/photo-1766298210616-098dd7ad3822?q=80&w=1800&auto=format&fit=crop')">
+<div class="container"><p class="crumbs">Home / Calculate Total Fees</p><h1>Calculate Total Fees</h1><p class="lead">Choose your experiences and get a quoted total, including discount and VAT.</p></div>
+</section>
+<section class="section">
+
+<div class="container fees-layout">
+<form id="feesForm" class="form-card" novalidate>
+<h2>Your details</h2>
+<div class="field">
+    <label for="fullName">Full name</label>
+    <input type="text" id="fullName" name="fullName" autocomplete="name" placeholder="e.g. Catania Rodriguez">
+    <span class="error" id="nameError" role="alert"></span>
+</div>
+<div class="field">
+    <label for="phone">Phone number</label>
+    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="e.g. 082 555 0123">
+    <span class="error" id="phoneError" role="alert"></span>
+</div>
+<div class="field">
+    <label for="email">Email address</label>
+    <input type="email" id="email" name="email" autocomplete="email" placeholder="e.g. name@example.com">
+    <span class="error" id="emailError" role="alert"></span>
+</div>
+<fieldset class="field"><legend>Select your experiences</legend>
+<div class="checks">
+    <label class="check" for="item0">
+        <input type="checkbox" id="item0" name="courses" value="Ultimate Adventure Day" data-price="1500">
+            <span class="check-name">Ultimate Adventure Day<small>Adventure Package</small></span>
+            <span class="check-fee">R1,500</span></label>
+    <label class="check" for="item1">
+        <input type="checkbox" id="item1" name="courses" value="Family Explorer Package" data-price="1500">
+            <span class="check-name">Family Explorer Package<small>Adventure Package</small></span>
+            <span class="check-fee">R1,500</span></label>
+    <label class="check" for="item2">
+        <input type="checkbox" id="item2" name="courses" value="Mountain Adventure Package" data-price="1500">
+            <span class="check-name">Mountain Adventure Package<small>Adventure Package</small></span>
+            <span class="check-fee">R1,500</span></label>
+    <label class="check" for="item3">
+        <input type="checkbox" id="item3" name="courses" value="Corporate Team Challenge" data-price="1500">
+            <span class="check-name">Corporate Team Challenge<small>Adventure Package</small></span>
+            <span class="check-fee">R1,500</span></label><label class="check" for="item4">
+        <input type="checkbox" id="item4" name="courses" value="Ziplining Adventure" data-price="750">
+            <span class="check-name">Ziplining Adventure<small>Individual Activity</small></span>
+            <span class="check-fee">R750</span></label>
+    <label class="check" for="item5">
+        <input type="checkbox" id="item5" name="courses" value="Kayaking Experience" data-price="750">
+            <span class="check-name">Kayaking Experience<small>Individual Activity</small></span>
+            <span class="check-fee">R750</span></label><label class="check" for="item6">
+        <input type="checkbox" id="item6" name="courses" value="Rock Climbing Session" data-price="750">
+            <span class="check-name">Rock Climbing Session<small>Individual Activity</small></span>
+            <span class="check-fee">R750</span></label>
+
+<span class="error" id="itemsError" role="alert"></span></fieldset>
+<div class="btn-row">
+    <button type="button" class="btn btn-primary" id="calcBtn">Calculate Total Fee</button>
+    <button type="submit" class="btn btn-outline">Request a Consultant to Contact Me</button>
+    <button type="reset" class="btn btn-text" id="resetBtn">Clear</button>
+</div>
+<p class="form-status" id="formStatus" role="status"></p>
+</form>
+
+<aside class="quote-card" aria-live="polite">
+<h2>Your quote</h2>
+<div id="quoteEmpty" class="muted">Select at least one experience and press <em>Calculate Total Fee</em>.
+</div>
+
+<div id="quoteOut" hidden>
+<table class="data-table compact"><caption class="sr-only">Selected experiences</caption><thead><tr><th scope="col">Experience</th><th scope="col">Fee</th></tr></thead><tbody id="quoteRows"></tbody></table>
+<dl class="totals"><div><dt>Bookings selected</dt><dd id="qCount">0</dd></div><div><dt>Subtotal</dt><dd id="qSub">R0.00</dd></div><div><dt id="qDiscLabel">Discount</dt><dd id="qDisc">&minus;R0.00</dd></div><div><dt>VAT (15%)</dt><dd id="qVat">R0.00</dd></div><div class="grand"><dt>Total quoted fee</dt><dd id="qTotal">R0.00</dd></div></dl>
+<p class="small muted">This is a quoted fee only and not a formal invoice.</p>
+</div>
+
+<hr><h3>Discount structure</h3><table class="data-table">
+<caption>Loyalty discount: the more bookings you make, the more you save</caption>
+<thead><tr><th scope="col">Number of bookings</th><th scope="col">Discount</th></tr></thead>
+<tbody><tr><td>One booking</td><td>No discount</td></tr><tr><td>Two bookings</td><td>5%</td></tr><tr><td>Three bookings</td><td>10%</td></tr><tr><td>More than three bookings</td><td>15%</td></tr></tbody>
+</table>
+
+</aside>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div><strong>Adventure Escape SA</strong><p>Guided outdoor experiences across the Western Cape, South Africa.</p></div>
+<div class="footer-links"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="overview.html">Overview</a><a href="fees.html">Calculate Fees</a><a href="contact.html">Contact</a></div>
+<div><p class="small">Website design and development by The Akatsuki &middot; XHAW5112 Work Integrated Learning 1.</p>
+<p class="small">Photography via Unsplash: Cobb (2025); Palmer (2025); Arteaga (2024); Ce (2023).</p></div>
+</div>
+<div class="container footer-base"><span>&copy; <span id="year">2026</span> Adventure Escape SA (fictional client for academic purposes)</span></div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
+                        </div>
