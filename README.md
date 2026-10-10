@@ -106,7 +106,7 @@ This project is developed by a three-member team.
 
 ### Team Leader
 
-Alicia B Bukitu was the grouo leader that led this team and was eesponsible for coordinating the project, delegating tasks, monitoring progress, and ensuring that project objectives are achieved.
+Alicia B Bukitu was the group leader that led this team and was eesponsible for coordinating the project, delegating tasks, monitoring progress, and ensuring that project objectives are achieved.
 
 ### Team Secretary
 
@@ -192,7 +192,7 @@ The main objectives of the project are to:
 
 **Module:** XHAW5112 — Work Integrated Learning 1
 **Project:** Adventure Escape SA Digital Booking Platform
-**Client:** Liam Daniels — Founder of Adventure Escape SA
+**Client:** Liam Daniels - Founder of Adventure Escape SA
 **Development Team:** The Akatsuki
 
 ---
